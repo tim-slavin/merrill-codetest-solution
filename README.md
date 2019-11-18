@@ -29,7 +29,7 @@
   ````
 
 ## Start local server
-- After all dependent modules have been installed, ensure you are still in the same directory. Run the following to start the Hapi.js server which has been bundled in the cloned image
+- After all dependent modules have been installed, ensure you are still in the same directory. Run the following to start the Hapi.js server(in dev mode) which has been bundled in the cloned image
 
 ````
 $ npm start
@@ -59,7 +59,7 @@ Documentation at http://<localHostName>:8080/documentation
 - Click **'Execute'**
 - Wollah !! User results should render accompanied by a '200' status code.
 
-## Run unit est suite
+## Run unit test suite
 - Kill the local running Hapi.js server
   - Hit **&lt;Ctrl C&gt;** within your terminal window.
 - At the prompt within your terminal window, enter the following:

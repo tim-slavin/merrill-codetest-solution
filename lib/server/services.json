@@ -6,10 +6,7 @@
     "useRouteVersioning": true
   },
   "test": {
-    "useRouteVersioning": true,
-    "graylog": {
-      "url": "http://merrill.centralus.test.cloudapp.com:12201/graylog"
-    }
+    "useRouteVersioning": true
   },
   "integration": {
     "useRouteVersioning": true
@@ -18,9 +15,6 @@
     "useRouteVersioning": true
   },
   "prod": {
-    "useRouteVersioning": true,
-    "graylog": {
-      "url": "http://merrill.centralus.cloudapp.com:12201/graylog"
-    }
+    "useRouteVersioning": true
   }
 }
