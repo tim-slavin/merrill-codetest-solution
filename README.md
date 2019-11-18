@@ -75,6 +75,7 @@ Time:        4.601s
 
 ## Run integration test suite
 - Ensure the local Hapi.js server is not currently running
+  - Hit **&lt;Ctrl C&gt;** within your terminal window.
 - At the prompt of your terminal window, submit the following command
 ````
 $npm run integration
