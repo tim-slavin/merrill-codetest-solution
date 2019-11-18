@@ -5,7 +5,7 @@
 - A RESTful API providing a comprehensive list of all registered and unregistered users
 - Code base with a focus on separation of concerns
 - Unit test suite with 100% code coverage
-- Integration test suite pointing at live endpoints.  This bonus item ensures our API is \'alive\' and still complies to the agreed upon contract.
+- Integration test suite pointing at live endpoints.  This bonus item ensures our API is \'alive\' and still complies to some agreed upon contract.
 - Auto generated Swagger page for the manual testing of the local endpoint.
 
 ## Installation instructions
@@ -61,7 +61,7 @@ Documentation at http://<localHostName>:8080/documentation
 
 ## Run unit est suite
 - Kill the local running Hapi.js server
-  - Hit <Ctrl C> within your terminal window.
+  - Hit **&lt;Ctrl C&gt;** within your terminal window.
 - At the prompt within your terminal window, enter the following:
 ````
 $npm test
@@ -73,11 +73,22 @@ Tests:       29 passed, 29 total
 Snapshots:   0 total
 Time:        4.601s
 ````
-
+- As part of each run, an HTML version of the jest unit test coverage report is automatically generated.  Report is accessible at the following location: `<currentWorkingDirectory>/merrill-codetest-solution/coverage/index.html`
 
 ## Run integration test suite
+- Ensure the local Hapi.js server is not currently running
 - At the prompt of your terminal window, submit the following command
 ````
 $npm run integration
+````
+- This will fire up an instance of our Hapi.js server bundled with the cloned image
+- And automatically executes the integration bucket
+- Should see a total of 8 tests having been executed.  With all 8 succeeding.
+````
+Test Suites: 8 passed, 8 total
+
+Tests: 8 passed, 8 total
+Snapshots: 0 total
+Time: 2.216 s
 ````
 
