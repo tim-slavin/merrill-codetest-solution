@@ -9,14 +9,14 @@
 - Auto generated Swagger page for the manual testing of the local endpoint.
 
 ## Installation instructions
-- On GitHub, navigate to the main page of my public repository: `https://github.com/tim-slavin/merrill-test-solution`
+- On GitHub, navigate to the main page of my public repository: `https://github.com/tim-slavin/merrill-codetest-solution`
 - Under the repository name, click the **'Clone or download'** button.  You will need to choose which flavor(HTTPS or SSH) you prefer.
 - Open a terminal window
 - Change the current working directory to the location where you want the cloned directory to be made
 - Type `git clone` and then paste the URL you copied above.
   
   ```` 
-  $ git clone https://github.com/tim-slavin/merrill-test-solution.git 
+  $ git clone https://github.com/tim-slavin/merrill-codetest-solution.git 
   ````
 - Press **'Enter'** , your local clone will be created.
 - Change the current working directory to be the newly created one.
